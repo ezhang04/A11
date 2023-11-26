@@ -55,7 +55,7 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
-	width: 16.41026%;
+	width: 20%;
 }
 #nav_menu ul li a {
     display: block;
@@ -87,52 +87,11 @@ header img {
     display: block;
 }
 
-
-
-#mobile_menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
-}
-#mobile_menu ul li {
-	float: left;
-	width: 16.41026%;
-}
-#mobile_menu ul li a {
-    display: block;
-    text-align: center;
-    padding: 1em 0;
-    text-decoration: none;
-    background-color: #800000;
-    color: white;
-    font-weight: bold;
-}
-#mobile_menu a.current {
-	color: yellow;
-}
-#mobile_menu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-	width: 100%;
-}
-#mobile_menu ul ul li {
-	float: none;
-}
-#mobile_menu ul li:hover > ul {
-	display: block;
-}
-#mobile_menu > ul::after {
-    content: "";
-    clear: both;
-    display: block;
-}
 /* the styles for the section */
 section {
-	width: 53.90625%;
+	width: 65.625%;
 	float: right;
-	padding: 0 1.02564% 1.02564% 1.02564%;
+	padding: 0 2.5% 20px 2.5%;
 }
 section h1 {
 	font-size: 150%;
@@ -167,6 +126,7 @@ article {
 }
 article h2 {
 	padding-top: 0;
+	font-size: 150%;
 }
 article h3 {
 	font-size: 105%;
@@ -215,7 +175,7 @@ footer p {
 #mobile_menu {
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 645px) {
     
     aside h2 a {
         font-size: 85%;

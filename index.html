@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="styles/slicknav.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+	</script>	
 </head>
 
 <body>
@@ -33,12 +38,7 @@
                 </ul>
             </li>
         </ul>
-    </nav>    
-	<script>
-        $(document).ready(function(){
-            $('#mobile_menu').slicknav();
-        });
-    </script>
+    </nav>
 	<nav id="nav_menu">
 		<ul>
 			<li class="current"><a href="index.html">Home</a></li>
